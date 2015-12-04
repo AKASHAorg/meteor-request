@@ -1,4 +1,5 @@
-const version = '2.67.0';
+const version = '2.67.1';
+const npmVersion = '2.67.0';
 
 Package.describe({
   name: 'akasha:request',
@@ -13,7 +14,7 @@ Package.describe({
 });
 
 Npm.depends({
-  'request':  version
+  'request':  npmVersion
 });
 
 Package.onUse(function(api) {
